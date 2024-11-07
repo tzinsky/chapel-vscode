@@ -15,4 +15,4 @@ jobs:
             - name: Install vsce
               run: npm install @vscode/vsce --save-dev
             - name: Package extension
-              run: vsce package
+              run: npx vsce package
